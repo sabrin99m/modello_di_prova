@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/faultinfo_datamodel/R2021a">
+  <faultinfo.FaultContainerSet type="faultinfo.FaultContainerSet" uuid="2e368134-9f73-4ae9-b831-2d2e66b27f63">
+    <conditionals type="faultinfo.conditional.Conditional" uuid="59f5ac47-1b9c-471a-9a39-37c4c53503c6">
+      <condition>x == true</condition>
+      <mustBeLogged>false</mustBeLogged>
+      <name>SampleConditional</name>
+      <resyncRefBlkID></resyncRefBlkID>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+      <symbols type="faultinfo.conditional.ExpressionSymbol" uuid="84a88e2c-845d-4d1f-ae52-8c80792e640f">
+        <expression>true</expression>
+        <name>x</name>
+      </symbols>
+    </conditionals>
+    <faultContainers type="faultinfo.FaultContainer" uuid="5b7850ff-ad99-4a07-91f3-a91a14d34a24">
+      <activeFault type="faultinfo.SLFault" uuid="54ec597b-e087-4f63-973e-b83345b556b4"/>
+      <faultedEntityID>Outport|prova:4|1</faultedEntityID>
+      <faultedEntityName>prova/Discrete Transfer Fcn/Outport/1</faultedEntityName>
+      <faults type="faultinfo.SLFault" uuid="54ec597b-e087-4f63-973e-b83345b556b4">
+        <faultDescription></faultDescription>
+        <faultName>DiscreteTransferFcn_Outport1_fault</faultName>
+        <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+        <triggerOn type="faultinfo.PermanentTrigger" uuid="ebdb61d1-1870-49d7-9999-090d7ebcb37c">
+          <isPersistent>true</isPersistent>
+        </triggerOn>
+      </faults>
+      <faults type="faultinfo.SLFault" uuid="b589d3c3-3692-4543-99f9-47effcb24493">
+        <faultDescription></faultDescription>
+        <faultName>DiscreteTransferFcn_Outport1_fault_1</faultName>
+        <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+        <triggerOn type="faultinfo.PermanentTrigger" uuid="f741eabc-00a5-4a8e-966d-edac8c5b6d6c">
+          <isPersistent>true</isPersistent>
+        </triggerOn>
+      </faults>
+      <faults type="faultinfo.SLFault" uuid="75ff6a87-713a-4645-b9af-f827a49ab8ee">
+        <faultDescription></faultDescription>
+        <faultName>DiscreteTransferFcn_Outport1_fault_2</faultName>
+        <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+        <triggerOn type="faultinfo.PermanentTrigger" uuid="49ef0980-f614-45ad-bd6a-3556f8818aad">
+          <isPersistent>true</isPersistent>
+        </triggerOn>
+      </faults>
+      <faults type="faultinfo.SLFault" uuid="a7ec1aa7-3b40-411f-afb6-9d0fe490347a">
+        <faultDescription></faultDescription>
+        <faultName>DiscreteTransferFcn_Outport1_fault_3</faultName>
+        <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+        <triggerOn type="faultinfo.PermanentTrigger" uuid="1f78712e-c25e-4e8f-a9df-d756da3f19ce">
+          <isPersistent>true</isPersistent>
+        </triggerOn>
+      </faults>
+      <faults type="faultinfo.SLFault" uuid="65de6407-94ec-4f37-9f07-e7d463969cce">
+        <faultDescription></faultDescription>
+        <faultName>DiscreteTransferFcn_Outport1_fault_4</faultName>
+        <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+        <triggerOn type="faultinfo.PermanentTrigger" uuid="e6953746-efd0-4f50-86cb-de37622ccf1b">
+          <isPersistent>true</isPersistent>
+        </triggerOn>
+      </faults>
+      <isEnabled>true</isEnabled>
+    </faultContainers>
+    <isEnabled>true</isEnabled>
+    <lastUpdatedAt>2024-05-07T13:25:21</lastUpdatedAt>
+    <modelName>prova</modelName>
+    <modelUUID>848d9600-f8d9-469c-b4ef-3bfd03c9d0c1</modelUUID>
+  </faultinfo.FaultContainerSet>
+  <faultinfo.FailureModeContainer type="faultinfo.FailureModeContainer" uuid="4273fe1f-c20c-472a-8e4d-c5a0fbb5690c">
+    <failureModes type="faultinfo.FailureMode" uuid="4bc75636-8c76-40f6-bebc-c69056b0b07f">
+      <ID>29</ID>
+      <associatedFaults type="faultinfo.SLFault" uuid="54ec597b-e087-4f63-973e-b83345b556b4"/>
+      <faultSubsystemName>DiscreteTransferFcn_Outport1_fault1</faultSubsystemName>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+    </failureModes>
+    <failureModes type="faultinfo.FailureMode" uuid="5fcef33a-8832-4f53-b3e9-44e4207b995e">
+      <ID>34</ID>
+      <associatedFaults type="faultinfo.SLFault" uuid="b589d3c3-3692-4543-99f9-47effcb24493"/>
+      <faultSubsystemName>DiscreteTransferFcn_Outport1_fault_1</faultSubsystemName>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+    </failureModes>
+    <failureModes type="faultinfo.FailureMode" uuid="7d1f4b38-4554-4011-84cb-12223a26b173">
+      <ID>39</ID>
+      <associatedFaults type="faultinfo.SLFault" uuid="75ff6a87-713a-4645-b9af-f827a49ab8ee"/>
+      <faultSubsystemName>DiscreteTransferFcn_Outport1_fault_2</faultSubsystemName>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+    </failureModes>
+    <failureModes type="faultinfo.FailureMode" uuid="67b78935-9173-4275-8955-6dceabf1a943">
+      <ID>44</ID>
+      <associatedFaults type="faultinfo.SLFault" uuid="a7ec1aa7-3b40-411f-afb6-9d0fe490347a"/>
+      <faultSubsystemName>DiscreteTransferFcn_Outport1_fault_3</faultSubsystemName>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+    </failureModes>
+    <failureModes type="faultinfo.FailureMode" uuid="4bac76d7-5a81-4493-8702-cb36adf5ace6">
+      <ID>49</ID>
+      <associatedFaults type="faultinfo.SLFault" uuid="65de6407-94ec-4f37-9f07-e7d463969cce"/>
+      <faultSubsystemName>DiscreteTransferFcn_Outport1_fault_4</faultSubsystemName>
+      <resyncUUID>00000000-0000-0000-0000-000000000000</resyncUUID>
+    </failureModes>
+    <faultModelName>prova_FaultModel</faultModelName>
+    <faultModelUUID>8bff0523-ea08-462a-b5b7-596dadecf16a</faultModelUUID>
+  </faultinfo.FailureModeContainer>
+</MF0>
